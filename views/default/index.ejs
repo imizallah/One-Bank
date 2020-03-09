@@ -1,0 +1,68 @@
+<% include ../partials/default/nav %> 
+<% include ../partials/default/messages %>
+
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <h2>Regiter an account</h2>
+      <form action="/verify-account" method="POST">
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="actnmbr">Account Number:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="actnmbr"
+            name="accountNumber"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="bankName">Bank Name:</label>
+          <select class="form-control" id="bankName" name="bankName" required>
+            <option>GTBank</option>
+            <option>Bank Two</option>
+            <option>Bank Three</option>
+            <option>Bank Four</option>
+            <option>Bank Five</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+
+        <button class="btn btn-success" type="submit">Register</button>
+      </form>
+    </div>
+
+    <div class="col-md-6">
+      <h1>Register an Accont</h1>
+      <p class="mute">
+        Note that this only works for Guarantee Trust Bank (GTBank)
+      </p>
+      <p class="mute">Already have an Acount?</p>
+      <a href="/login" class="btn btn-primary">Login</a>
+    </div>
+  </div>
+</div>
+
+<% include ../partials/default/footer %>

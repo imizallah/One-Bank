@@ -1,0 +1,15 @@
+<div class="container center-block">
+  <% if (success_message && success_message.length > 0) { %>
+
+    <div class="alert alert-success fade in auto-hide" style="text-align: center;" role="alert">
+      <strong><%= success_message %></strong>
+    </div>
+
+    <% } %>
+
+      <% if (error_message && error_message.length > 0) { %>
+        <div class="alert alert-danger fade in auto-hide" style="text-align: center;" role="alert">
+          <strong><%= error_message %></strong>
+        </div>
+        <% } %>
+</div>

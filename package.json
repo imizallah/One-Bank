@@ -1,0 +1,34 @@
+{
+  "name": "fsi",
+  "version": "1.0.0",
+  "description": "Payment API app",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "moongodb"
+  ],
+  "author": "Ishaya Sunday, Biello Nuhu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "2.6.2",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "innovation-sandbox": "^1.1.0",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "serve": "^11.3.0"
+  }
+}

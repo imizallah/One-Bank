@@ -1,0 +1,30 @@
+<% include ../partials/default/nav %> 
+<% include ../partials/default/messages %>
+
+<div class="container mt-5">
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Full Name</th>
+        <th scope="col">Account Number</th>
+        <th scope="col">BVN</th>
+        <th scope="col">Email Address</th>
+        <th scope="col">Bank Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><%= user.fullName %></td>
+        <td><%= user.accountNumber %></td>
+        <td><%= user.bvn %></td>
+        <td><%= user.email %></td>
+        <td><%= user.bankName %></td>
+
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+
+
+<% include ../partials/default/footer %>
