@@ -12,4 +12,4 @@ sterling API,
 1. Run "npm install" to install dependencies,
 2. Run "node server.js" to start application
 
->>> Visit http://localhost:7000 on a Web Browser
+3. Visit http://localhost:7000 on a Web Browser
