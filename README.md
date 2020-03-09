@@ -1,11 +1,11 @@
 This application was built with:
-africa's-talking,
+africa's-talking API,
 bootstrap,
 ejs,
 javascript,
-nibss,
+nibss APi,
 node.js,
-sterling,
+sterling API,
 
 
 #### How Run Application
