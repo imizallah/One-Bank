@@ -1,4 +1,11 @@
-This application was with
+This application was built with:
+africa's-talking,
+bootstrap,
+ejs,
+javascript,
+nibss,
+node.js,
+sterling,
 
 
 #### How Run Application
